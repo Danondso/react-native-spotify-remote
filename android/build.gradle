@@ -20,7 +20,7 @@ buildscript {
             jcenter()
         }
         dependencies {
-            classpath 'com.android.tools.build:gradle:3.4.1'
+            classpath 'com.android.tools.build:gradle:7.2.2'
         }
     }
 }
@@ -69,7 +69,7 @@ repositories {
 dependencies {
     implementation (files("external/SpotifySDK/auth-lib/spotify-auth-release-1.2.3.aar"))
     implementation (files("external/SpotifySDK/app-remote-lib/spotify-app-remote-release-0.7.2.aar"))
-    implementation "com.google.code.gson:gson:2.8.5"  // needed by spotify-app-remote
+    implementation "com.google.code.gson:gson:2.8.9"  // needed by spotify-app-remote
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
 }
